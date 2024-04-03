@@ -1,0 +1,33 @@
+.home {
+  display: flex;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: #333;
+}
+
+.home h1 {
+  background: linear-gradient(to right, rgb(255, 64, 64), rgb(255, 255, 93));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.home img {
+  width: 90%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.home h6 {
+  color: #bababa;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+   
+.home p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  width: 600px;
+}

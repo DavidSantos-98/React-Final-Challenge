@@ -1,0 +1,34 @@
+.works-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 1rem;
+     width: 100%;
+     max-width: 960px;
+     margin: 0 auto;
+     border-radius: 20px;
+     padding: 20px;
+     background-color: #333;
+}
+
+.portfolioItem-img-container {
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+
+.portfolio-item-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.portfolio-item-description {
+    width: 100%;
+    text-align: center;
+}
