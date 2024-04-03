@@ -10,7 +10,7 @@ const Works = () => {
           <h1>All Projects</h1>
             <div className="works-container">
               <PortfolioItem
-                title="Project 1"
+                title="React Final Challenge"
                 description="This is my first project"
                 imageUrl="./assets/image1.jpg"
               />
